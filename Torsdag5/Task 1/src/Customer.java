@@ -5,10 +5,11 @@ public class Customer {
     private String username;
     private int id;
 
-    Customer(String firstname, String lastName, String username){
+    Customer(String firstname, String lastName, String username, int id){
         this.firstName = firstname;
         this.lastName = lastName;
         this.username = username;
+        this.id = id;
     }
 
     public String getFirstName() {
@@ -21,6 +22,10 @@ public class Customer {
 
     public String getUsername() {
         return username;
+    }
+
+    public int getId() {
+        return id;
     }
 
     public String toString(){

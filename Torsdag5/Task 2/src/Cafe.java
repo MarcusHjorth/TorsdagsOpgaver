@@ -7,7 +7,7 @@ public class Cafe {
     ArrayList<String>coffeeMenus = new ArrayList<String>();
 
     Cafe(){
-
+        coffeeMenus = new ArrayList<>();
     }
 
     void loadMenuData(){
